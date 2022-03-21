@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4874386052442424442}
   m_Layer: 0
   m_Name: RightTilePoint
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 4874386053560711917}
   m_Layer: 0
   m_Name: StartTile
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -138,7 +138,7 @@ GameObject:
   - component: {fileID: 4874386053978211162}
   m_Layer: 0
   m_Name: ForwardTilePoint
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

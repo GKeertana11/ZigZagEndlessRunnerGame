@@ -265,7 +265,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentTile: {fileID: 203331446}
-  RightTile: {fileID: 9095546930965230369, guid: 4f043bda28b52184699ceacca36be93c, type: 3}
   TilesPrefab:
   - {fileID: 9095546930965230369, guid: 4f043bda28b52184699ceacca36be93c, type: 3}
   - {fileID: 3713795315883540689, guid: a5179b7aa6563c047bbd1699e1016f80, type: 3}
