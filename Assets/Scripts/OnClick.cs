@@ -6,14 +6,23 @@ using UnityEngine.SceneManagement;
 
 public class OnClick : MonoBehaviour
 {
-    public Button start;
-    public Button options;
+   public Button start;
+     public Button options;
+     public Button back;
+    public GameObject startingPanel;
+    public GameObject optionsPanel;
+    
+
     
     // Start is called before the first frame update
     void Start()
     {
         start.onClick.AddListener(Starts);
         options.onClick.AddListener(Options);
+        back.onClick.AddListener(Back);
+
+        
+        
     }
 
     // Update is called once per frame
@@ -25,10 +34,16 @@ public class OnClick : MonoBehaviour
     {
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-            }
+     }
     public void Options()
     {
 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+        optionsPanel.SetActive(true);
+        startingPanel.SetActive(false);
+
     }
+    public void Back()
+    {
+        startingPanel.SetActive(true);
+        optionsPanel.SetActive(false);    }
 }
